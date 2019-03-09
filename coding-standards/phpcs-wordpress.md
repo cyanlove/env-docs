@@ -18,8 +18,8 @@ short way to set wp-coding-standards:
 
 long way:
 1. add VScode extension: PHPCS
-2. install composer (https://getcomposer.org/download/)
-3.  https://github.com/squizlabs/PHP_CodeSniffer
+2. install composer (https://getcomposer.org/download/) || `sudo apt install composer`
+3.  https://github.com/squizlabs/PHP_CodeSniffer || `sudo apt-get install php-codesniffer`
 4. download and add wp-c-standards manually (not much, really)
 - https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards
 
