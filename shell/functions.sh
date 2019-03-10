@@ -72,3 +72,16 @@ function gpsu {
 
     return 1
 }
+###this must be updated to work with any project in any environtment & root
+function getwpsbp {
+        if [ -d  /mnt/d/devops/projects/cyanlovers/wp-security-bp/app/public/wp-content/plugins/wp-security-bp ]; then
+                rm -rf  /mnt/d/devops/projects/cyanlovers/wp-security-bp/app/public/wp-content/plugins/wp-security-bp
+        fi
+
+        git clone git@github.com:cyanlove/wp-security-bp.git
+
+        cd /mnt/d/devops/projects/cyanlovers/wp-security-bp/app/public/wp-content/plugins/wp-security-bp
+
+        return 1
+}
+
