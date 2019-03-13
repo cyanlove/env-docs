@@ -1,7 +1,7 @@
 Webpack use and install
 Lu primer ke najajitem ej tani el node jota eze injjtalat. hhhino… hhhhHHHIINOO...ejjjmm.. hhhHHHSSINOOO!! ajtem futucss. Vale o no?? :D 
 
-*Adveretisment:* el seguent tutorial és mega cutre i bàsic però crec que per començar a entendre una mica el tema us anirà bé. 
+**Adveretisment:** el seguent tutorial és mega cutre i bàsic però crec que per començar a entendre una mica el tema us anirà bé. 
 
 Amb el node.js instalat ja tenim el comando npm operatiu per instalar les dependencies que necessitarem. 
 
@@ -59,18 +59,11 @@ Webpack necessita de mòduls per transpilar els diferents codis com per exemple 
 `npm install -D babel-loader @babel/core @babel/preset-env babel-preset-env`
 
 Si obres el package.json podràs veure que a ‘devDependencies’ tenim aquests paquets. Aquí és on està la magia d’aquest package.json. Si recordes hem posat el node_modules a .gitignore. Gràcies a aquest package.json cuan algú es baixi el teu repositori, executant el comando `npm install` instal·larà tot el core de node més les dependencies que trobi a ‘devDependencies’ o ‘dependencies’ (la diferència entre aquests dos ja en parlarem). D’aquesta forma qualsevol programador tindrà tot el que necessita el projecte per funcionar via npm install.
-	
 
-
-
-
-
-
-
-6) webpack.config.js rules: 
+	6) webpack.config.js rules: 
 
 Ara ens toca dir-li a webpack que té que utilitzar per transpilar X archius, en aquest cas els archius .js. A webpack.config.js, dins de module.exports escrivim el següent:
-
+`
 module:{
   		rules:[
   			{
@@ -86,6 +79,7 @@ module:{
   			},
   			  		]
   },
+ `
 
 Com pots veure obrim un objecte module i dins definim unes normes: 
 	· test: miram els archius .js
