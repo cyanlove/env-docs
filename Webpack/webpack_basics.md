@@ -7,9 +7,9 @@ Amb el node.js instalat ja tenim el comando npm operatiu per instalar les depend
 
 Exercici d’exemple: 
 
-*crea una carpeta ‘project’. 
-*dins de ‘project’ crea una carpeta ‘src’
-*dins de ‘src’ crea un archiu ‘main.js’ amb un ‘alert(‘hola’)’ per exemple.
+* crea una carpeta ‘project’. 
+* dins de ‘project’ crea una carpeta ‘src’
+* dins de ‘src’ crea un archiu ‘main.js’ amb un ‘alert(‘hola’)’ per exemple.
  
 	1. Al root del projecte: npm init -y
 
