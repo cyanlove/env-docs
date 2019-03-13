@@ -22,7 +22,7 @@ Webpack es pot instal·lar de forma global afegint `--global` en comptes de `-D`
 
 Veureu que se us ha creat una carpeta node_modules al projecte. Afegiu-la al .gitignore. Aquí està tot el que webpack necessita i tot el que anirem instal·lant via npm. També se us crearà un package.lock.json on estàn tots els mòduls dins de node_modules. No l’editeu, es treballa sempre al package.json.
 
-### 3) crear archiu webpack.config.json al root ‘project’.
+### 3) crear archiu ```webpack.config.json``` al root ‘project’.
 
 Com ja sabeu webpack és una eina per compilar moduls de codi en un únic archiu o varis. En aquest webpack.config.json és on li direm a webpack quins archius volem que agafi, quines eines ha d’utilitzar per transpilar aquests archius ( ecmascript, sass, typescript, etc ) i a on volem que crei aquest archiu nou amb tot el codi compilat. Una configuració bàsica seria la seguent:
 
