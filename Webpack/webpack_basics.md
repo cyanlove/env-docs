@@ -26,7 +26,7 @@ Veureu que se us ha creat una carpeta node_modules al projecte. Afegiu-la al .gi
 
 Com ja sabeu webpack és una eina per compilar moduls de codi en un únic archiu o varis. En aquest webpack.config.json és on li direm a webpack quins archius volem que agafi, quines eines ha d’utilitzar per transpilar aquests archius ( ecmascript, sass, typescript, etc ) i a on volem que crei aquest archiu nou amb tot el codi compilat. Una configuració bàsica seria la seguent:
 
-```
+```javascript
 const path = require('path');
 module.exports = {
   mode: 'development',
@@ -44,7 +44,7 @@ Com veieu tenim un entrada entry que també pot ser un objecte amb varies entrad
 
 Per executar els comandos de webpack els hem de definir en aquest archiu. Dins de l’objecte scripts.
 
-```
+```javascript
 "scripts": {
     "dev": "webpack --mode development",
     "production": "webpack --mode production",
@@ -68,7 +68,7 @@ Si obres el package.json podràs veure que a ‘devDependencies’ tenim aquests
 	6) webpack.config.js rules: 
 
 Ara ens toca dir-li a webpack que té que utilitzar per transpilar X archius, en aquest cas els archius .js. A webpack.config.js, dins de module.exports escrivim el següent:
-```
+```javascript
 module:{
   		rules:[
   			{
