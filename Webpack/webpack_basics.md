@@ -1,7 +1,7 @@
 Webpack use and install
 Lu primer ke najajitem ej tani el node jota eze injjtalat. hhhino… hhhhHHHIINOO...ejjjmm.. hhhHHHSSINOOO!! ajtem futucss. Vale o no?? :D 
 
-Adveretisment: el seguent tutorial és mega cutre i bàsic però crec que per començar a entendre una mica el tema us anirà bé. 
+*Adveretisment:* el seguent tutorial és mega cutre i bàsic però crec que per començar a entendre una mica el tema us anirà bé. 
 
 Amb el node.js instalat ja tenim el comando npm operatiu per instalar les dependencies que necessitarem. 
 
