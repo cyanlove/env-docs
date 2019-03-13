@@ -87,8 +87,8 @@ module:{
  ```
 
 Com pots veure obrim un objecte module i dins definim unes normes: 
-	* test: miram els archius .js
-	* exclude: el que no volem que webpack miri.
-	* use: el transpilador que webpack necessita per aquest tipus d’archius.
+* test: miram els archius .js
+* exclude: el que no volem que webpack miri.
+* use: el transpilador que webpack necessita per aquest tipus d’archius.
 
 Amb aquesta configuració bàsica ja tindriem webpack operatiu. Realment es poden fer virgueries de config per definir diferents entorns de treball etc. Però no arribu a tant. Ja anirem aprenent. A partir d’aquí és anar investigan quins moduls es necessita per cada tipu de codi i anar afegint. Si us ha quedat algun dubte truqueu al Dámaso.
