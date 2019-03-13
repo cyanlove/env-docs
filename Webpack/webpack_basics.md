@@ -11,11 +11,11 @@ Exercici d’exemple:
 -dins de ‘project’ crea una carpeta ‘src’
 -dins de ‘src’ crea un archiu ‘main.js’ amb un ‘alert(‘hola’)’ per exemple.
  
-1. Al root del projecte: ```npm init -y```
+	1. Al root del projecte: npm init -y
 
 Amb aquest comando es crearà un package.json. Aquí webpack anirà guardant totes les dependencies que anem instal·lant. Més endavant veurem perquè. També aquí configurarem els comandos o les ordres que utilitzarem per dir-li a webpack que volem fer.
 	
-2. ***npm install webpack -D***
+	2. npm install webpack -D
 
 Webpack es pot instal·lar de forma global afegint `--global` en comptes de `-D`, però és millor instalar-lo sempre només al projecte per evitar conflictes de versions etc. També serveix npm install webpack, la `-D` significa instalar-ho en development mode i pel que diuen és la bona pràctica. 
 
