@@ -11,17 +11,18 @@ Exercici d’exemple:
 * dins de ‘project’ crea una carpeta ‘src’
 * dins de ‘src’ crea un archiu ‘main.js’ amb un ‘alert(‘hola’)’ per exemple.
  
-	1. Al root del projecte: npm init -y
+	
+     ```1) Al root del projecte: npm init -y```
 
 Amb aquest comando es crearà un package.json. Aquí webpack anirà guardant totes les dependencies que anem instal·lant. Més endavant veurem perquè. També aquí configurarem els comandos o les ordres que utilitzarem per dir-li a webpack que volem fer.
 	
-	2. npm install webpack -D
+	2) npm install webpack -D
 
 Webpack es pot instal·lar de forma global afegint `--global` en comptes de `-D`, però és millor instalar-lo sempre només al projecte per evitar conflictes de versions etc. També serveix npm install webpack, la `-D` significa instalar-ho en development mode i pel que diuen és la bona pràctica. 
 
 Veureu que se us ha creat una carpeta node_modules al projecte. Afegiu-la al .gitignore. Aquí està tot el que webpack necessita i tot el que anirem instal·lant via npm. També se us crearà un package.lock.json on estàn tots els mòduls dins de node_modules. No l’editeu, es treballa sempre al package.json.
 
-     3) crear archiu webpack.config.json al root ‘project’.
+     	3) crear archiu webpack.config.json al root ‘project’.
 
 Com ja sabeu webpack és una eina per compilar moduls de codi en un únic archiu o varis. En aquest webpack.config.json és on li direm a webpack quins archius volem que agafi, quines eines ha d’utilitzar per transpilar aquests archius ( ecmascript, sass, typescript, etc ) i a on volem que crei aquest archiu nou amb tot el codi compilat. Una configuració bàsica seria la seguent:
 
