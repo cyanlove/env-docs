@@ -12,11 +12,11 @@ Exercici d’exemple:
 * dins de ‘project’ crea una carpeta ‘src’
 * dins de ‘src’ crea un archiu ‘main.js’ amb un ‘alert(‘hola’)’ per exemple.
  
-### 1) Al root del projecte: npm init -y
+### 1) Al root del projecte: ```npm init -y```
 
 Amb aquest comando es crearà un package.json. Aquí webpack anirà guardant totes les dependencies que anem instal·lant. Més endavant veurem perquè. També aquí configurarem els comandos o les ordres que utilitzarem per dir-li a webpack que volem fer.
 	
-### 2) npm install webpack -D
+### 2) ```npm install webpack -D```
 
 Webpack es pot instal·lar de forma global afegint `--global` en comptes de `-D`, però és millor instalar-lo sempre només al projecte per evitar conflictes de versions etc. També serveix npm install webpack, la `-D` significa instalar-ho en development mode i pel que diuen és la bona pràctica. 
 
@@ -87,8 +87,8 @@ module:{
  ```
 
 Com pots veure obrim un objecte module i dins definim unes normes: 
-	· test: miram els archius .js
-	· exclude: el que no volem que webpack miri.
-	· use: el transpilador que webpack necessita per aquest tipus d’archius.
+	* test: miram els archius .js
+	* exclude: el que no volem que webpack miri.
+	* use: el transpilador que webpack necessita per aquest tipus d’archius.
 
 Amb aquesta configuració bàsica ja tindriem webpack operatiu. Realment es poden fer virgueries de config per definir diferents entorns de treball etc. Però no arribu a tant. Ja anirem aprenent. A partir d’aquí és anar investigan quins moduls es necessita per cada tipu de codi i anar afegint. Si us ha quedat algun dubte truqueu al Dámaso.
