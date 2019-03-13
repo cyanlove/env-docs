@@ -67,7 +67,7 @@ Si obres el package.json podràs veure que a ‘devDependencies’ tenim aquests
 	6) webpack.config.js rules: 
 
 Ara ens toca dir-li a webpack que té que utilitzar per transpilar X archius, en aquest cas els archius .js. A webpack.config.js, dins de module.exports escrivim el següent:
-`
+```
 module:{
   		rules:[
   			{
@@ -83,7 +83,7 @@ module:{
   			},
   			  		]
   },
- `
+ ```
 
 Com pots veure obrim un objecte module i dins definim unes normes: 
 	· test: miram els archius .js
